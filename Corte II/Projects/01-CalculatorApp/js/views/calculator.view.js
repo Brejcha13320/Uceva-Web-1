@@ -1,4 +1,4 @@
-class CalculatorView {
+export class CalculatorView {
 
     constructor() {
 

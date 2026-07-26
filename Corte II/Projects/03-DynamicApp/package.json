@@ -1,5 +1,5 @@
 {
-  "name": "auth-app",
+  "name": "dynamic-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,15 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.2.11",
+    "@types/node": "^26.1.1",
+    "sass": "^1.102.0",
     "typescript": "6.0.2",
     "vite": "8.1.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   }
 }

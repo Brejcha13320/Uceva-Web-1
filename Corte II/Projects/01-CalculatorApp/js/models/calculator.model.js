@@ -1,4 +1,4 @@
-class CalculatorModel {
+export class CalculatorModel {
 
     /**
      * Suma dos números.

@@ -1,11 +1,16 @@
-class CalculatorController {
+import { CalculatorModel } from "../models/calculator.model.js";
+import { CalculatorView } from "../views/calculator.view.js";
 
-    constructor(model, view) {
-        this.model = model;
-        this.view = view;
+export class CalculatorController {
+
+    model = new CalculatorModel();
+    view = new CalculatorView();
+
+    constructor() {
+        this.initEvents();
     }
 
-    init() {
+    initEvents() {
         this.view.sumButton.addEventListener("click", () => {
             this.calculateSum();
         });
