@@ -10,8 +10,8 @@ export class UtilsService {
         return document.createElement(tagName);
     }
 
-    public static redirecTo(url: string){
-        window.location.href = url;
+    public static capitalize(text: string){
+        return text[0].toUpperCase() + text.slice(1);
     }
 
 }

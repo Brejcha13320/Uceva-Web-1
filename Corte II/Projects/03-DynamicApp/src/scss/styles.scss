@@ -1,17 +1,16 @@
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-#main-options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .card {
-        max-width: 500px;
+#home {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card {
+            max-width: 500px;
+        }
+        .btn {
+            width: 100%;
+        }
     }
-
-    .btn {
-        width: 100%;
-    }
-
 }

@@ -15,4 +15,5 @@ npm i --save-dev @types/node
 ```
 
 ```
+npm i bootstrap-icons
 ```

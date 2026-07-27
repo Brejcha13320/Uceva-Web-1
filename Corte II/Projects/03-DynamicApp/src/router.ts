@@ -1,4 +1,6 @@
-import { OptionsController } from "./controllers/options.controller";
+import { HomeController } from "./controllers/home.controller";
+import { RecipesController } from "./controllers/recipes.controller";
+import { UsersController } from "./controllers/users.controller";
 
 export class Router {
     
@@ -10,7 +12,15 @@ export class Router {
 
             case "":
             case "index.html":
-                new OptionsController();
+                new HomeController("/");
+                break;
+            
+            case "users.html":
+                new UsersController("users.html");
+                break;
+
+            case "recipes.html":
+                new RecipesController("recipes.html");
                 break;
 
         }
