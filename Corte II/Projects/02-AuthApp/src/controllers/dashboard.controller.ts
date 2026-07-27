@@ -9,7 +9,6 @@ export class DashboardController {
     private readonly authService = new AuthService();
 
     constructor(){
-        console.log("DashboardController");
         this.initEvents();
         this.setUserInformation();
     }

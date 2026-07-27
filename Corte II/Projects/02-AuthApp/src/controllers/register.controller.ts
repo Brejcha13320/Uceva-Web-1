@@ -9,7 +9,6 @@ export class RegisterController {
     private readonly authService = new AuthService();
 
     constructor(){
-        console.log("RegisterController");
         this.initEvents();
     }
 
