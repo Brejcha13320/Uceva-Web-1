@@ -4,217 +4,507 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ejercicios del Curso HTML</title>
+    <title>Taller HTML - Programación en Ambiente Web I</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
 
 </head>
 
 <body>
 
-    <h1>Ejercicios de Programación en Ambiente Web I</h1>
+    <header class="container">
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 1 - ESTRUCTURA BÁSICA HTML -->
-    <!-- ===================================================== -->
+        <nav>
 
-    <!--
+            <ul>
+                <li>
+                    <strong>Programación en Ambiente Web I</strong>
+                </li>
+            </ul>
 
-    Crear una página que contenga:
+            <ul>
+                <li>
+                    <a href="#ejercicios">Ejercicios</a>
+                </li>
+            </ul>
 
-    1. Un título principal utilizando h1.
-    2. Un párrafo con una presentación personal.
-    3. Un segundo párrafo indicando la carrera que estudias.
-    4. Una frase motivacional.
+        </nav>
 
-    -->
+    </header>
 
 
+    <main class="container">
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 2 - TEXTO Y FORMATO -->
-    <!-- ===================================================== -->
+        <section>
 
-    <!--
+            <h1>Taller de HTML</h1>
 
-    Crear una página que incluya:
+            <p>
+                En este taller pondrás en práctica los conceptos fundamentales
+                de HTML mediante la construcción de diferentes páginas web.
+                Cada ejercicio está diseñado para trabajar progresivamente
+                los elementos y estructuras vistos durante el curso.
+            </p>
 
-    1. Un h1 con tu nombre.
-    2. Un h2 con tu carrera.
-    3. Un h3 con tu ciudad.
-    4. Un párrafo descriptivo.
-    5. Un texto usando strong.
-    6. Un texto usando em.
-    7. Un texto usando mark.
-    8. Un texto usando u.
-    9. Un texto usando small.
+            <p>
+                Desarrolla cada ejercicio utilizando HTML5 y aplica correctamente
+                las etiquetas y estructuras solicitadas.
+            </p>
 
-    -->
+        </section>
 
 
+        <hr>
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 3 - LISTAS -->
-    <!-- ===================================================== -->
 
-    <!--
+        <section id="ejercicios">
 
-    Construir la siguiente estructura:
+            <h2>Ejercicios</h2>
 
-    Lenguajes de Programación
 
-        Frontend
-            HTML
-            CSS
-            JavaScript
+            <!-- EJERCICIO 1 -->
 
-        Backend
-            PHP
-            Python
-            Java
+            <article>
 
-    Requisitos:
+                <header>
+                    <h3>Ejercicio 1 — Estructura básica HTML</h3>
+                </header>
 
-    - Utilizar listas anidadas.
-    - Agregar un título principal.
-    - Agregar una descripción utilizando un párrafo.
+                <p>
+                    Crear una página web que contenga información básica
+                    sobre el estudiante.
+                </p>
 
-    -->
+                <h4>Requisitos</h4>
 
+                <ol>
+                    <li>
+                        Un título principal utilizando <code>h1</code>.
+                    </li>
 
+                    <li>
+                        Un párrafo con una presentación personal.
+                    </li>
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 4 - ENLACES E IMÁGENES -->
-    <!-- ===================================================== -->
+                    <li>
+                        Un segundo párrafo indicando la carrera que estudias.
+                    </li>
 
-    <!--
+                    <li>
+                        Una frase motivacional.
+                    </li>
+                </ol>
 
-    Crear una galería personal.
+            </article>
 
-    Debe contener:
 
-    1. Tres imágenes.
-    2. Tres enlaces externos.
-    3. Un título principal.
-    4. Una descripción de cada imagen.
+            <!-- EJERCICIO 2 -->
 
-    -->
+            <article>
 
+                <header>
+                    <h3>Ejercicio 2 — Texto y formato</h3>
+                </header>
 
+                <p>
+                    Crear una página utilizando diferentes niveles de
+                    encabezados y etiquetas de formato de texto.
+                </p>
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 5 - TABLAS -->
-    <!-- ===================================================== -->
+                <h4>Requisitos</h4>
 
-    <!--
+                <ol>
+                    <li>Un <code>h1</code> con tu nombre.</li>
+                    <li>Un <code>h2</code> con tu carrera.</li>
+                    <li>Un <code>h3</code> con tu ciudad.</li>
+                    <li>Un párrafo descriptivo.</li>
+                    <li>Un texto utilizando <code>strong</code>.</li>
+                    <li>Un texto utilizando <code>em</code>.</li>
+                    <li>Un texto utilizando <code>mark</code>.</li>
+                    <li>Un texto utilizando <code>u</code>.</li>
+                    <li>Un texto utilizando <code>small</code>.</li>
+                </ol>
 
-    Crear una tabla de horario académico.
+            </article>
 
-    Debe incluir:
 
-    - thead
-    - tbody
-    - tfoot
-    - colspan
-    - rowspan
+            <!-- EJERCICIO 3 -->
 
-    Información mínima:
+            <article>
 
-    Día
-    Materia
-    Horario
+                <header>
+                    <h3>Ejercicio 3 — Listas</h3>
+                </header>
 
-    Mostrar al final el total de materias.
+                <p>
+                    Construir una estructura de listas anidadas para
+                    representar diferentes lenguajes de programación
+                    según su área de desarrollo.
+                </p>
 
-    -->
+                <h4>Estructura solicitada</h4>
 
+                <pre><code>Lenguajes de Programación
 
+    Frontend
+        HTML
+        CSS
+        JavaScript
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 6 - FORMULARIOS BÁSICOS -->
-    <!-- ===================================================== -->
+    Backend
+        PHP
+        Python
+        Java</code></pre>
 
-    <!--
+                <h4>Requisitos</h4>
 
-    Crear un formulario de registro.
+                <ul>
+                    <li>Utilizar listas anidadas.</li>
+                    <li>Agregar un título principal.</li>
+                    <li>Agregar una descripción utilizando un párrafo.</li>
+                </ul>
 
-    Campos:
+            </article>
 
-    - Nombre
-    - Apellido
-    - Correo
-    - Contraseña
 
-    Agregar un botón de envío.
+            <!-- EJERCICIO 4 -->
 
-    -->
+            <article>
 
+                <header>
+                    <h3>Ejercicio 4 — Enlaces e imágenes</h3>
+                </header>
 
+                <p>
+                    Crear una galería personal utilizando imágenes y
+                    enlaces externos.
+                </p>
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 7 - FORMULARIOS AVANZADOS -->
-    <!-- ===================================================== -->
+                <h4>Requisitos</h4>
 
-    <!--
+                <ol>
+                    <li>Incluir tres imágenes.</li>
+                    <li>Incluir tres enlaces externos.</li>
+                    <li>Agregar un título principal.</li>
+                    <li>
+                        Agregar una descripción para cada imagen.
+                    </li>
+                </ol>
 
-    Crear un formulario de inscripción universitaria.
+            </article>
 
-    Debe contener:
 
-    - Nombre
-    - Correo
-    - Edad
-    - Fecha de nacimiento
-    - Carrera (select)
-    - Género (radio)
-    - Habilidades (checkbox)
-    - Foto (file)
-    - Comentarios (textarea)
+            <!-- EJERCICIO 5 -->
 
-    -->
+            <article>
 
+                <header>
+                    <h3>Ejercicio 5 — Tablas</h3>
+                </header>
 
+                <p>
+                    Crear una tabla que represente un horario académico.
+                </p>
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 8 - HTML SEMÁNTICO -->
-    <!-- ===================================================== -->
+                <h4>Requisitos</h4>
 
-    <!--
+                <ul>
+                    <li>Utilizar <code>thead</code>.</li>
+                    <li>Utilizar <code>tbody</code>.</li>
+                    <li>Utilizar <code>tfoot</code>.</li>
+                    <li>Utilizar <code>colspan</code>.</li>
+                    <li>Utilizar <code>rowspan</code>.</li>
+                </ul>
 
-    Crear la estructura de un periódico digital.
+                <h4>Información mínima</h4>
 
-    Debe incluir:
+                <ul>
+                    <li>Día</li>
+                    <li>Materia</li>
+                    <li>Horario</li>
+                </ul>
 
-    - header
-    - nav
-    - main
-    - section
-    - article
-    - aside
-    - footer
+                <p>
+                    Al finalizar la tabla se debe mostrar el total
+                    de materias.
+                </p>
 
-    Agregar contenido de ejemplo en cada sección.
+            </article>
 
-    -->
 
+            <!-- EJERCICIO 6 -->
 
+            <article>
 
-    <!-- ===================================================== -->
-    <!-- EJERCICIO 9 - MULTIMEDIA -->
-    <!-- ===================================================== -->
+                <header>
+                    <h3>Ejercicio 6 — Formularios básicos</h3>
+                </header>
 
-    <!--
+                <p>
+                    Crear un formulario de registro utilizando los
+                    elementos básicos de los formularios HTML.
+                </p>
 
-    Crear una página multimedia.
+                <h4>Campos requeridos</h4>
 
-    Debe contener:
+                <ul>
+                    <li>Nombre</li>
+                    <li>Apellido</li>
+                    <li>Correo</li>
+                    <li>Contraseña</li>
+                </ul>
 
-    - Un audio local.
-    - Un video local.
-    - Un video de YouTube.
-    - Un título principal.
-    - Una descripción para cada recurso.
+                <p>
+                    Agregar un botón para enviar el formulario.
+                </p>
 
-    -->
+            </article>
+
+
+            <!-- EJERCICIO 7 -->
+
+            <article>
+
+                <header>
+                    <h3>Ejercicio 7 — Formularios avanzados</h3>
+                </header>
+
+                <p>
+                    Crear un formulario de inscripción universitaria
+                    utilizando diferentes tipos de controles HTML.
+                </p>
+
+                <h4>Campos requeridos</h4>
+
+                <ul>
+                    <li>Nombre</li>
+                    <li>Correo</li>
+                    <li>Edad</li>
+                    <li>Fecha de nacimiento</li>
+                    <li>Carrera utilizando <code>select</code></li>
+                    <li>Género utilizando botones <code>radio</code></li>
+                    <li>Habilidades utilizando <code>checkbox</code></li>
+                    <li>Foto utilizando <code>file</code></li>
+                    <li>Comentarios utilizando <code>textarea</code></li>
+                </ul>
+
+            </article>
+
+
+            <!-- EJERCICIO 8 -->
+
+            <article>
+
+                <header>
+                    <h3>Ejercicio 8 — HTML semántico</h3>
+                </header>
+
+                <p>
+                    Crear la estructura de un periódico digital
+                    utilizando las principales etiquetas semánticas
+                    de HTML5.
+                </p>
+
+                <h4>Elementos requeridos</h4>
+
+                <ul>
+                    <li><code>header</code></li>
+                    <li><code>nav</code></li>
+                    <li><code>main</code></li>
+                    <li><code>section</code></li>
+                    <li><code>article</code></li>
+                    <li><code>aside</code></li>
+                    <li><code>footer</code></li>
+                </ul>
+
+                <p>
+                    Agregar contenido de ejemplo dentro de cada sección.
+                </p>
+
+            </article>
+
+
+            <!-- EJERCICIO 9 -->
+
+            <article>
+
+                <header>
+                    <h3>Ejercicio 9 — Figuras y citas</h3>
+                </header>
+
+                <p>
+                    Crear una página web sobre un personaje, escritor,
+                    científico, deportista o personaje histórico.
+                </p>
+
+                <p>
+                    La página debe presentar información organizada mediante
+                    figuras, descripciones y citas.
+                </p>
+
+                <h4>Requisitos</h4>
+
+                <ol>
+
+                    <li>
+                        Un título principal con el nombre del personaje.
+                    </li>
+
+                    <li>
+                        Un párrafo introductorio sobre el personaje.
+                    </li>
+
+                    <li>
+                        Una imagen utilizando la etiqueta
+                        <code>figure</code>.
+                    </li>
+
+                    <li>
+                        Una descripción de la imagen utilizando
+                        <code>figcaption</code>.
+                    </li>
+
+                    <li>
+                        Una cita relacionada con el personaje utilizando
+                        <code>blockquote</code>.
+                    </li>
+
+                    <li>
+                        Una sección con información adicional sobre
+                        el personaje.
+                    </li>
+
+                    <li>
+                        Un enlace externo donde se pueda consultar
+                        más información.
+                    </li>
+
+                </ol>
+
+                <h4>Condiciones</h4>
+
+                <ul>
+
+                    <li>
+                        Utilizar correctamente
+                        <code>figure</code> y <code>figcaption</code>.
+                    </li>
+
+                    <li>
+                        Utilizar <code>blockquote</code> para representar
+                        una cita.
+                    </li>
+
+                    <li>
+                        La imagen debe tener un texto alternativo
+                        mediante el atributo <code>alt</code>.
+                    </li>
+
+                    <li>
+                        Organizar la información utilizando encabezados
+                        y párrafos.
+                    </li>
+
+                    <li>
+                        El contenido debe ser elaborado por el estudiante.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- EJERCICIO 10 -->
+
+            <article>
+
+                <header>
+                    <h3>Ejercicio 10 — Información desplegable</h3>
+                </header>
+
+                <p>
+                    Crear una página web sobre una carrera universitaria
+                    utilizando elementos de contenido desplegable.
+                </p>
+
+                <h4>Requisitos</h4>
+
+                <ol>
+                    <li>
+                        Un título principal con el nombre de la carrera.
+                    </li>
+
+                    <li>
+                        Un párrafo con una descripción general de la carrera.
+                    </li>
+
+                    <li>
+                        Tres secciones de información desplegable utilizando
+                        <code>details</code> y <code>summary</code>.
+                    </li>
+
+                    <li>
+                        La primera sección debe presentar información sobre
+                        el perfil profesional.
+                    </li>
+
+                    <li>
+                        La segunda sección debe presentar información sobre
+                        las asignaturas o áreas de formación.
+                    </li>
+
+                    <li>
+                        La tercera sección debe presentar información sobre
+                        las oportunidades laborales.
+                    </li>
+                </ol>
+
+                <h4>Condiciones</h4>
+
+                <ul>
+                    <li>
+                        Utilizar correctamente las etiquetas
+                        <code>details</code> y <code>summary</code>.
+                    </li>
+
+                    <li>
+                        Cada sección desplegable debe contener información
+                        relacionada con la carrera.
+                    </li>
+
+                    <li>
+                        Utilizar encabezados y párrafos para organizar
+                        el contenido.
+                    </li>
+
+                    <li>
+                        El contenido debe ser elaborado por el estudiante.
+                    </li>
+                </ul>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer class="container">
+
+        <hr>
+
+        <p>
+            <small>
+                Programación en Ambiente Web I — Taller de HTML
+            </small>
+        </p>
+
+    </footer>
 
 </body>
 
