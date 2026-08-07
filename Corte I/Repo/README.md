@@ -19,7 +19,7 @@ git config --global user.name "Juan Perez"
 #### Configurar Correo
 
 ```bash
-git config --global user.name "Juan Perez"
+git config --global user.email "Juan Perez"
 ```
 
 #### Ver Configuración
