@@ -6,6 +6,7 @@ npm create vite@latest 02-AuthApp
 
 # 2 Crear Scaffolding
 
+```
 ├── index.html
 ├── dashboard.html
 ├── register.html
@@ -34,6 +35,7 @@ npm create vite@latest 02-AuthApp
     │
     └── styles/
         └── main.css
+```
 
 # 3 Crear contenido HTML de las paginas
 
